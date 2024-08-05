@@ -1,4 +1,7 @@
+// import { inter } from "next/from/google"
 import "./globals.css";
+
+// const inter = Inter
 
 export const metadata = {
   title: "Create Next App",
