@@ -1,9 +1,10 @@
 .containerTitulo {
     display: flex;
+    flex: 1;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     width: 100%;
-    height: 8rem;
+    /* height: 8rem; */
     border: 0.2rem solid #f00;
     padding: 1rem;
     /* align-items: center; */
@@ -11,4 +12,22 @@
 
 .txtTitulo {
     color: #f00;
+}
+
+.imageHome {
+    height: 50rem;
+    width: 50rem;
+}
+
+.containerImagem {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media screen and (max-width: 960px) {
+	.containerImagem {
+        flex-direction: column;
+        align-items: center;
+    }
 }
